@@ -188,12 +188,14 @@ p {
     line-height: 130%;
 }
 
-.container {
-    max-width: 960px;
-}
-
 .form-area {
     height: auto;
+}
+
+/* Area for portfolio image styling */
+
+.container {
+    max-width: 960px;
 }
 
 .image1  {
@@ -229,7 +231,7 @@ p {
     padding: 10px;
     padding-left: 30px;
     float: left;
-  }  
+  }   
   
 .projectname {
     position: absolute;

@@ -50,18 +50,49 @@ table {
 /* end reset styling */
 
 .header {
-    background-color: #ffffff;
+    background-color: #cc2c2c;
     width:100%;
     box-sizing: border-box;
     border-top: #ffffff solid 5px;
     height: 70px;
     margin: 0 auto;
+    padding
 }
 
-.toptab {
+.nametab {
     background-color: #4aaaa5;
     color: white;
+    height: 100%;
+    width: 350px;
+    text-align: center;
+    margin-left: 50px;
+    padding: 20px 0px 20px 0px;
+    box-sizing: border-box;
+    float:left;
+}
 
+.navtab1 {
+    float:right;
+    background-color: #ffffff
+    height: 10px;
+    width: 80px;
+}
+.navtab2 {
+    float:right;
+    background-color: #ffffff
+    height: 10px;
+    width: 80px;
+}
+.navtab3 {
+    float:right;
+    background-color: #ffffff
+    height: 10px;
+    width: 80px;
+}
+
+.topic {
+    background-color: #ffffff;
+    margin-bottom: 50px;
 }
 
 body {
@@ -88,7 +119,11 @@ body {
 .main {
     max-width: 700px;
     background-color: #ffffff;
-    margin-left: 100px;
+    float:left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 footer {
@@ -99,7 +134,13 @@ footer {
     height: 58px;
     text-align: center;
     padding-top: 16px;
-    box-sizing: border-box ;
+    box-sizing: border-box;
+    clear: both;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
 h1, h2, h3, h4 {

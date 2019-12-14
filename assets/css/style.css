@@ -5,4 +5,19 @@ body {
  If you need more, that's where to get'em.
  ========================================================================*/
     background-color: black;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: ;
+    border-top: 8px solid #4aaaa5;
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+
 }

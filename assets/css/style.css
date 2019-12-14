@@ -49,6 +49,20 @@ table {
 
 /* end reset styling */
 
+.header {
+    background-color: #ffffff;
+    width:100%;
+    box-sizing: border-box;
+    border-top: #ffffff solid 5px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.toptab {
+    background-color: #4aaaa5;
+    color: white;
+
+}
 
 body {
     background-image: url("../images/memphis-mini-dark.png");
@@ -68,12 +82,13 @@ body {
 .wrapper {
     min-height: 100%;
     max-width: 960px;
-    margin-bottom: -50px;
+    margin-bottom: 50px;
 }
 
 .main {
     max-width: 700px;
     background-color: #ffffff;
+    margin-left: 100px;
 }
 
 footer {
@@ -89,6 +104,7 @@ footer {
 
 h1, h2, h3, h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
 }
 
 p {

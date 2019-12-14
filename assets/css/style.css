@@ -202,8 +202,36 @@ p {
     padding-left: 30px;
     float: left;
   }
+
+.image2 {
+    position: relative;
+    padding: 10px;
+    padding-left: 30px;
+    float: left;
+  } 
+
+.image3 {
+    position: relative;
+    padding: 10px;
+    padding-left: 30px;
+    float: left;
+  } 
   
-  .projectname {
+.image4 {
+    position: relative;
+    padding: 10px;
+    padding-left: 30px;
+    float: left;
+  }  
+
+.image5 {
+    position: relative;
+    padding: 10px;
+    padding-left: 30px;
+    float: left;
+  }  
+  
+.projectname {
     position: absolute;
     text-align: center;
     color: #ffffff;

@@ -49,14 +49,25 @@ table {
 
 /* end reset styling */
 
+body {
+    background-image: url("../images/memphis-mini-dark.png");
+    /*=========================================================================
+ This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
+ If you need more, that's where to get'em.
+ ========================================================================*/
+    background-color: black;
+    background-attachment: fixed;
+}
+
+
 .header {
-    background-color: #cc2c2c;
+    background-color: #ffffff;
     width:100%;
     box-sizing: border-box;
     border-top: #ffffff solid 5px;
     height: 70px;
     margin: 0 auto;
-    padding
+    overflow: hidden;
 }
 
 .nametab {
@@ -71,38 +82,36 @@ table {
     float:left;
 }
 
-.navtab1 {
+.navtab1, .navtab2, .navtab3  {
     float:right;
-    background-color: #ffffff
-    height: 10px;
+    background-color: #ffffff;
+    height: 15px;
     width: 80px;
+    padding: 4px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+/*
 .navtab2 {
     float:right;
     background-color: #ffffff
     height: 10px;
     width: 80px;
+    box-sizing: border-box;
 }
 .navtab3 {
     float:right;
     background-color: #ffffff
     height: 10px;
     width: 80px;
-}
+    box-sizing: border-box;
+}*/
 
 .topic {
     background-color: #ffffff;
-    margin-bottom: 50px;
-}
-
-body {
-    background-image: url("../images/memphis-mini-dark.png");
-    /*=========================================================================
- This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
- If you need more, that's where to get'em.
- ========================================================================*/
-    background-color: black;
-    background-attachment: fixed;
+    margin-bottom: 25px;
+    color: #4aaaa5;
 }
 
 .footwrapper {
@@ -124,6 +133,7 @@ body {
     margin-bottom: 50px;
     margin-right: 10%;
     margin-left: 10%;
+    padding: 5%;
 }
 
 footer {
@@ -147,6 +157,7 @@ h1, h2, h3, h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
 }
+
 
 p {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
